@@ -19,5 +19,11 @@ public class Main {
         String name = "Vlad";
         z1.showResult(name);
         System.out.println(z1.showResult(name));
+
+        z1.deleteName("Masik");
+        System.out.println(z1.getArray1());
+
+        z1.edit("Barsik", "wert");
+        System.out.println(z1.getArray1());
     }
 }
